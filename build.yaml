@@ -1,6 +1,6 @@
 include:
-  - board: seed_xiao_ble
+  - board: seeed_xiao_ble
     shield: totem_left
-  - board: seed_xiao_ble
+  - board: seeed_xiao_ble
     shield: totem_right
 # there is no settingsreset (needed) for the XIAO
