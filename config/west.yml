@@ -7,9 +7,6 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    # Füge dieses Projekt hinzu:
-    - name: zmk-hardware
-      remote: zmkfirmware
-      revision: main
+
   self:
     path: config
