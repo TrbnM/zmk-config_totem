@@ -41,7 +41,7 @@
 #define DE_QMRK  &kp LS(MINUS) // ?
 #define DE_DEG   &kp LS(GRAVE) // °
 #define DE_PIPE  &kp RA(NON_US_BSLH) // |
-#define DE_BSLH  &kp RA(MINUS) // \
+#define DE_BSLH  &kp RA(MINUS) // backslash
 #define DE_LBRC  &kp RA(N7)    // {
 #define DE_RBRC  &kp RA(N0)    // }
 #define DE_LBKT  &kp RA(N8)    // [
