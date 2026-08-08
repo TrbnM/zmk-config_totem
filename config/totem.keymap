@@ -138,9 +138,9 @@
         Nav_layer {
             label = "Nav";
             bindings = <
-                      &kp HOME    &kp UP      &kp END     &kp PG_UP  &kp INS    &DE_SLSH      &kp N7      &kp N8      &kp N9      &DE_MINS
-              &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN   &kp DEL    &DE_PLUS      &kp N4      &kp N5      &kp N6      &DE_ASTR
-&kp LALT              &trans      &trans      &trans      &trans     &trans     &DE_EQL       &kp N1      &kp N2      &kp N3      &DE_QMRK  &trans
+                      &kp HOME    &kp UP      &kp END     &kp PG_UP  &kp INS     DE_SLSH      &kp N7      &kp N8      &kp N9       DE_MINS
+              &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN   &kp DEL     DE_PLUS      &kp N4      &kp N5      &kp N6       DE_ASTR
+&kp LALT              &trans      &trans      &trans      &trans     &trans      DE_EQL       &kp N1      &kp N2      &kp N3       DE_QMRK  &trans
                                               &trans      &trans     &trans     &trans        &trans      &kp N0
             >;
         };
@@ -148,9 +148,9 @@
         Sym_layer {
             label = "Sym";
             bindings = <
-                      &DE_LBRC    &DE_LBKT    &DE_LPAR    &DE_LT      &DE_DLR    &DE_PERC     &DE_GT      &DE_RPAR    &DE_RBKT    &DE_RBRC
-              &DE_EXCL    &DE_AT      &DE_HASH    &DE_BSLH    &DE_AMPS   &DE_PIPE   &DE_CIRC     &DE_ASTR    &DE_PLUS    &DE_EQL
-&trans                &DE_TILD    &DE_GRAV    &DE_UNDS    &DE_MINS    &DE_EURO   &DE_DEG      &DE_SLSH    &DE_QMRK    &DE_DQUO    &DE_QUOT  &trans
+                       DE_LBRC     DE_LBKT     DE_LPAR     DE_LT       DE_DLR     DE_PERC      DE_GT       DE_RPAR     DE_RBKT     DE_RBRC
+               DE_EXCL     DE_AT       DE_HASH     DE_BSLH     DE_AMPS    DE_PIPE    DE_CIRC      DE_ASTR     DE_PLUS     DE_EQL
+&trans                 DE_TILD     DE_GRAV     DE_UNDS     DE_MINS     DE_EURO    DE_DEG       DE_SLSH     DE_QMRK     DE_DQUO     DE_QUOT  &trans
                                               &trans      &trans      &trans     &trans       &trans      &trans
             >;
         };
